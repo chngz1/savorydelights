@@ -1,0 +1,32 @@
+2023-09-24T09:02:28+00:00 CRITICAL Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-content/themes/grandrestaurant/lib/custom.lib.php:1678
+Stack trace:
+#0 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-content/themes/grandrestaurant/lib/custom.lib.php(1678): imagesx()
+#1 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-content/themes/grandrestaurant/functions.php(1661): grandrestaurant_blur()
+#2 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/class-wp-hook.php(310): grandrestaurant_blurred()
+#3 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-admin/admin-ajax.php(188): do_action()
+#6 {main}
+  thrown in /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-content/themes/grandrestaurant/lib/custom.lib.php on line 1678
+
+2023-09-24T10:46:24+00:00 CRITICAL Uncaught Error: Undefined constant "ELATED_FRAMEWORK_ROOT" in /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-content/plugins/eltd-core/core-dashboard/core-dashboard.php:92
+Stack trace:
+#0 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/class-wp-hook.php(310): ElatedCoreDashboard->enqueue_styles()
+#1 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/script-loader.php(2225): do_action()
+#4 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/class-wp-hook.php(310): wp_enqueue_scripts()
+#5 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/general-template.php(3053): do_action()
+#8 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-content/themes/astra/header.php(31): wp_head()
+#9 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/template.php(785): require_once('/home/u90082505...')
+#10 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/template.php(720): load_template()
+#11 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/general-template.php(48): locate_template()
+#12 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-content/themes/astra/index.php(20): get_header()
+#13 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-includes/template-loader.php(106): include('/home/u90082505...')
+#14 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-blog-header.php(19): require_once('/home/u90082505...')
+#15 /home/u900825059/domains/brainpharma.info/public_html/savorydelights/index.php(17): require('/home/u90082505...')
+#16 {main}
+  thrown in /home/u900825059/domains/brainpharma.info/public_html/savorydelights/wp-content/plugins/eltd-core/core-dashboard/core-dashboard.php on line 92
+

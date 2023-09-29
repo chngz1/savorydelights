@@ -1,0 +1,55 @@
+.elementor-5156 .elementor-element.elementor-element-561246b{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--background-transition:0.3s;}/* Start custom CSS for shortcode, class: .elementor-element-4431921 */.wpc-reservation-field.date .flatpickr-current-month .flatpickr-monthDropdown-months, .wpc-reservation-field.date span.flatpickr-weekday, .wpc-reservation-field.date .flatpickr-day {
+    color: #fff;
+    border-radius: 0px;
+}
+.wpc-reservation-field.date.wpc-reservation-calender-field {
+    padding: 65px 40px;
+    border-radius: 0px !important;
+    background-color: #8B4513;
+}
+.wpc-reservation-field.date .flatpickr-day {
+    height: 54px;
+    line-height: 49px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid;
+}
+.reservation_form_submit.wpc-btn {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #D32F2F;
+    -webkit-transition: all 0.4s ease;
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 45px;
+    border: 0.1px solid;
+    text-transform: uppercase;
+    -webkit-border-radius: 0px;
+}
+.wpc-reservation-form .wpc_reservation_user_info {
+    background-color: #556B2F;
+    -webkit-border-radius: 0;
+}
+.wpc-reservation-form .confirm_booking_btn, .wpc-reservation-form .cancell_form_submit {
+    margin-right: 10px;
+    background-color: #D32F2F;
+    position: relative;
+    border-radius: 0;
+}
+.wpc-reservation-form .edit_booking_btn {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 13px 20px;
+    line-height: 16px;
+    border-radius: 0;
+}
+.wpc-reservation-form .wpc-another-reservation-free {
+    display: none !important;
+}
+.wpc-btn:hover{
+        color: #fff;
+    border: 0.1px solid;
+    box-shadow: none !important;
+    background-color: #8B4513!important;
+}/* End custom CSS */
